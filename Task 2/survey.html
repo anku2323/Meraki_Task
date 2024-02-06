@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+<header id="title">
+    <h1>Survey Form</h1>
+</header>
+<div class="container">
+    <div id="describes">
+        <p>Let us know how we can improve freecodecamp</p>
+    </div>
+    <form id="Survey-form" class="survey-form">
+        <div class="tab">
+            <div class="label-container">
+                <label for="Name">Name</label>
+            </div>
+            <div class="input-container">
+                <input type="text" id="Name" name="Name">
+            </div>
+        </div>
+        <div class="tab">
+            <div class="label-container">
+                <label for="Email">Email</label>
+            </div>
+            <div class="input-container">
+                <input type="email" id="Email" name="Email">
+            </div>
+        </div>
+        <div class="tab">
+            <div class="label-container">
+                <label for="Age">Age</label>
+            </div>
+            <div class="input-container">
+                <input type="number" id="Age" name="Age">
+            </div>
+        </div>
+        <div class="tab">
+            <div class="label-container">
+                <label for="Role">Which option best describes your current role</label>
+            </div>
+            <div class="select-container">
+                <select id="Role" class="select-box" name="Role">
+                    <option>Student</option>
+                    <option>Job holder</option>
+                    <option>Businessman</option>
+                </select>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="label-container">
+                <label>How likely is it that you would recommend freecodecamp to a friend?</label>
+            </div>
+            <div class="input-container">
+                <div>
+                <input type="radio" id="definitely" name="suggest" value="Definitely">
+                <label for="definitely">Definitely</label></div>
+                <div>
+                <input type="radio" id="maybe" name="suggest" value="Maybe">
+                <label for="maybe">Maybe</label></div>
+                <div>
+                <input type="radio" id="not-sure" name="suggest" value="Not sure">
+                <label for="not-sure">Not sure</label></div>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="label-container">
+                <label>What do you like most in FCC</label>
+            </div>
+            <div class="select-container">
+                <select id="Likes" class="select-box" name="Likes">
+                    <option>select an option</option>
+                    <option>option-1</option>
+                    <option>option-2</option>
+                </select>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="label-container">
+                <label>Things that should be improved in the future (check all that apply)</label>
+            </div>
+            <div class="input-container">
+                <div>
+                <input type="checkbox" id="frontend" name="project" value="Front-end project">
+                <label for="frontend">Front-end</label><div></div>
+                <input type="checkbox" id="backend" name="project" value="Back-end project">
+                <label for="backend">Back-end</label>
+               <div>
+                 <input type="checkbox" id="visualization" name="project" value="Data Visualization">
+                <label for="visualization">Data Visualization</label></div>
+            </div>
+        </div>
+    </form>
+</div>
+<input type="Submit" value="Submit Now">
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.logo{
+    height: 2.8rem;
+    width: 2.8rem;
+    background-image: url(/image/WhatsApp\ Image\ 2024-01-31\ at\ 6.56.07\ PM.jpeg);
+    background-size: cover;
+    box-shadow: #000(0 0 0 2);
+    position: fixed;
+    margin-top:2.5px;
+    margin-left: 1rem;
+    border-radius: 50%;
+    
+}
+
+
+nav {
+    background-color: #1e1d1d;
+    padding:16px;
+    text-align:right;
+}
+nav a{
+ text-decoration: none; 
+ margin-left: 10px; 
+ color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+content {
+flex: 1;
+background-color: #fff;
+background-size: cover;
+color:#000;
+ display:flex;
+ justify-content: space-evenly;
+ align-items: center;
+    
+}
+.img-container{
+ height: 3rem;
+ width: 4rem;
+ background-color:transparent;
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+
+}
+img{
+    height: 4rem;
+    width: 4rem;
+    color: #fff;
+}
+span{
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 0;
+}
+
+aside {
+    flex: 0 0 20%;
+    background-color: #e8e4e4;
+    height: 78vh;
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 0px;
+}
+.SVG{
+    height: 5.5rem;
+    width: 5.5rem;
+    flex-wrap: wrap;
+    position: absolute;
+    top:1rem;
+    left: 3rem;
+}
+aside p{
+    color:#000;
+    font-size: 8px;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 10px;
+}
+aside h2{
+    font-size: 13px;
+    color: #000;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 10px;
+}
+aside h3{
+    font-size: 13px;
+    color: #000;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 10px;
+}
+.dital{
+    color:#000;
+    font-size: 8px;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 17rem;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    color: #ff4500;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px; 
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+}
+footer p:hover{
+    color: yellow;
+}

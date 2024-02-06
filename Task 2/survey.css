@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color:transparent;
+    color: #000;
+    background-image: url('image/Pinterest.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+#describes {
+    text-align: center;
+}
+
+#title {
+    background-color:transparent; 
+    color: #000;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.container {
+    font-size: x-large;
+    width: 50%;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 0.7); 
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 1); 
+    text-align: center; 
+}
+
+.survey-form {
+    text-align: left; 
+}
+
+.tab {
+    display: block;
+    padding-bottom: 20px; 
+}
+
+.label-container {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.input-container, .select-container {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.select-box {
+    padding: 10px 0;
+}
+input[type="submit"] {
+    background-color: rgb(240, 176, 15);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: -4rem;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(2, 2, 35);
+}
