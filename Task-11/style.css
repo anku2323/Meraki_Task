@@ -188,6 +188,41 @@ body{
   font-weight: 700px;
   margin-left: 10px;
 }
+.scroll-container {
+  width: 100%;
+  overflow-x: hidden; 
+  white-space: nowrap;
+  position: relative; 
+}
+
+.scroll-content {
+  display: inline-block;
+  animation: slide-in 20s linear infinite; 
+}
+
+.scroll-content img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-content img {
+    margin-right: 5px; 
+    height: 300px;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(0); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+
+
 
 .box-b{
   display: flex;
@@ -309,8 +344,10 @@ body{
   .panel img {
       width: 2rem;
   }
+  
       
   } 
+
   
 
   @media (max-width: 768px) and (min-width: 320px) {
@@ -387,9 +424,6 @@ body{
         font-size: 9px;
     }
   
-    
-  
-  
     .account {
         font-size: 1px;
         max-width: none;
@@ -414,13 +448,7 @@ body{
     .panel img {
         display: none;
     }
-    .container{
-      height: 50vh;
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      overflow: hidden;
-    }
+   
    
   }
   
