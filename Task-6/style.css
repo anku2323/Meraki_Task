@@ -1,0 +1,380 @@
+/* Resetting default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Styling the container */
+.container {
+    height: 98vh;
+    width: 100%; 
+}
+
+/* Styling the header and nav */
+header {
+    background-color: #333; 
+    padding: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/* Styling the logo */
+.logo {
+    color: #e1dbdb; 
+    font-size: xx-large;
+}
+
+/* Styling the span */
+span {
+    color: #ee0303;
+    font-size: x-large;
+}
+
+/* Styling the button */
+.btn {
+    color: #e1dbdb;
+    border: 2px solid #fff;
+    height: 3.5rem;
+    width: 6rem;
+    text-align: center;
+    align-items: center;
+    display: flex; 
+    justify-content: center; 
+}
+
+/* Media query for nav*/
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        padding: 0.5rem;
+    }
+}
+
+/* styling the main */
+#main {
+    height: 89.95vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+/* styling the child */
+.box {
+    height: 64.2vh; 
+    width: 50%;
+}
+
+/* Styling for content */
+.content{
+    height:8rem;
+    width: 28rem;
+    background-color: transparent;
+    font-size: 30px;
+    padding: 1rem;
+}
+
+.name{
+   font-size: 36px;
+   margin-top:-1.5rem ;
+}
+
+.content div{
+    background-color: #2230ed;
+    margin-left: 8.5rem;
+    margin-top: -4.2rem;
+    height: 3rem;
+    width: 8rem;
+    color: #e1dbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+pre{
+    font-size: 15px;
+    margin-left: 1.22rem;
+    margin-top: -1rem;
+}
+
+.hire{
+    height: 4rem;
+    width: 24rem;
+    /* background-color: orangered; */
+    /* margin-top: 2rem; */
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box3{
+    height: 100%;
+    width: 50%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.box4{
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.arrow::before{
+    content: "\2197";
+    font-size: 40px;
+    rotate: 50deg;
+    margin-left: 1rem;
+}
+
+.box1 {
+    height: 89.9vh; 
+    width: 50%;
+    background-color: #fff;
+    background-image: url(./img.png);
+    background-size: cover;
+}
+
+/* Media query for content */
+@media (min-width: 800px) and (max-width:1320px){
+    
+    .small{
+        height: auto;
+        width: auto;
+        /* background-color: #2230ed; */
+        margin-left: -29.52%;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .small p{
+        font-size: 10px;
+    }
+    .contact{
+        margin-left: auto;
+        margin-top: auto;
+    }
+    .email{
+        margin-left: auto;
+        margin-top: auto;
+    }
+    
+    .imgbox img{
+        margin-top: -25rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    .footer{
+        height: 29vh;
+        width: auto;
+        background-color: black;
+        margin-top: -28.7vh;
+    }
+}
+
+@media (min-width: 600px) and (max-width:800px) {
+    .content{
+        height: auto;
+        width: auto;
+    }
+    .name{
+        height: auto;
+        width: auto;
+        /* font-size: 18px; */
+    }
+    pre{
+        height: auto;
+        width: auto;
+        margin-left: 0.45rem;
+        font-size: 13px;
+    }
+    .hire{
+        height: auto;
+        width: auto;
+        
+    }
+    .small{
+        position: relative;
+        margin-left:-6rem ;
+    }
+    
+    .small h3{
+        font-size: 16px;
+        /* margin: 0.85rem; */
+        position: relative;
+        /* margin-left:-1rem ; */
+    }
+    .small p{
+        margin: 0px 0px;
+    }
+    .imgbox{
+        position: relative;
+        margin-top: -39rem;
+        margin-left: 19rem;
+
+    }
+    .imgbox img{
+        margin-top: 25rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    .contact{
+        font-size: 16px;
+        color: #000;
+    }
+}
+
+@media (min-width: 300px) and (max-width:600px) {
+    .content{
+        height: auto;
+        width: auto;
+        font-size: 20px;
+    }
+    .content div{
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        margin-left: auto;
+        margin-top: 1px;
+        
+    }
+    .name{
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        margin: auto;
+    }
+    pre{
+        height: auto;
+        width: auto;
+        margin-left: 0.45rem;
+        margin-top: auto;
+        font-size: 9.3px;
+    }
+    .hire{
+        height: auto;
+        width: auto;
+        margin-left: auto;
+    }
+    .box3{
+        font-size: 10px;
+    }
+    .box4,.arrow::before {
+       font-size: 10px;
+       height: auto;
+    }
+    .imgbox{
+        width: auto;
+        height: auto;
+        margin-top: auto;
+        margin-left: auto;
+    }
+    img{
+        height: 4rem;
+        width: 4rem;
+        margin-top: -4rem;
+        
+    }
+    .small{
+        height: 20rem;
+        width: 38rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer h1{
+        font-size: 20px;
+    }
+    .footer1 hr{
+        width: 80px;
+    }
+    .item{
+        font-size: 10px;
+    }
+}
+footer {
+    height: 29vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.footer{
+    height: 29vh;
+    width: 50%;
+    background-color:#000;
+    color: #fff;
+    text-align: center;
+}
+.footer1{
+    height: 29vh;
+    width: 50%;
+    background-color:#000;
+}
+hr{
+    width: 24.8vh;
+    position: relative;
+    
+ }
+ .item{
+    display: flex;
+    justify-content:space-between;
+    
+ }
+ 
+.footer-content p{
+    font-size: 24px;
+    height: 0;
+}
+.rate{
+   color: #fff;
+}
+.skill{
+    color: #fff;
+}
+button{
+    background-color: orangered;
+    color: #fff;
+    border: none;
+}
+@media (min-width: 400px) and (max-width:600px) {
+.footer1 {
+    width: 50px;
+}
+}
+@media (min-width: 600px){
+    .footer1 hr{
+        width: 152px;
+    }
+    }
+    @media (min-width: 760px){
+        .footer1 hr{
+            width: 182px;
+        }
+        }

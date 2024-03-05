@@ -1,0 +1,96 @@
+body{
+    background-color: lightgray;
+}
+
+.logo{
+    height: 3vh;
+    
+}
+span{
+    margin-right: 1.5rem;
+    font-size: x-large;
+    color: rgb(13, 41, 13) ;
+}
+.about{
+    height: 2vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+}
+.one{
+    margin-top:1.3rem ;
+}
+.btn1{
+    padding: 5px;
+    border-radius: 30px;
+}
+select{
+    background: transparent;
+    border: none;
+}
+.sign{
+    background-color: rgb(15, 34, 15);
+    font-size: x-large;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.under{
+    width: 35vw;
+    height: 90vh;
+
+}
+.inside{
+    margin-top: 1rem;
+    display: flex;
+  justify-content: right;
+}
+.upper{
+    position: fixed;
+    bottom:8rem;
+    left: 16rem;
+    background-color: rgb(130, 182, 165);
+    width: 50vw;
+    height: 60vh;
+   
+}
+.upper h1{
+    padding: 4rem 4rem 0rem 7rem;
+    text-align: end;
+    font-size: xx-large;
+    color: rgb(24, 43, 24);
+
+}
+.upper p{
+    padding: 0rem 3rem 0rem 19rem;
+    text-align: start;
+    color:white;
+}
+
+.btn2{
+   
+    margin-left: 14rem;
+    display: flex;
+    justify-content: space-around;
+}
+.start{
+    padding: 10px;
+    background: transparent;
+    background-color:rgb(24, 43, 24) ;
+    color: white;
+    border: none;
+}
+.learn{
+    padding: 10px;
+    background: transparent;
+    background-color:gainsboro;
+    color: rgb(24, 43, 24) ;
+    border: none;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+    header{
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 2rem;
+        font-size: x-large;
+    }
+    .container{
+        height: 80%;
+        width:40%;
+        border: 4px solid #000;
+        padding:1rem;
+        padding-left: 1rem;
+        
+    }
+    .top-box {
+        background-color: white;
+        height: 50px;
+        width: 99.35%;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        color: #000;
+    }
+
+    .left-box {
+        margin-top: 10px;
+        float: left;
+        border-color: black;
+        height: 500px;
+        width: 20%;
+        margin-right: 20px;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-large;
+        color: #000;
+    }
+
+    .nested-table td {
+        /* padding: 1px; */
+        border: 3px solid black;
+        color: #000;
+        font-size: x-larger;
+    }
+
+    .right-box{
+        margin-top: 10px;
+        border: 3px solid black;
+        max-width: 1072px;
+        display: flex;
+        height: 500px;
+    }
+    .nested-table{
+        height: 70%;
+        width: 80%;
+        border: 10px solid #000;
+        margin-left: 4rem;
+        margin-top: 4rem;
+    }
+    .content1{
+        vertical-align: top;
+        text-align:start;
+        font-size: x-large;
+        color: #000;
+    }
+
+    .content2{
+        text-align: left;
+        font-size: x-large;
+        color: #000;
+    }
+
+    .content3{
+        vertical-align: bottom  ;
+        text-align: bottom;
+        font-size: x-large;
+        color: #000;
+    }
+    
+    .content4{
+        vertical-align:top;
+        text-align:center;
+        font-size: x-large;
+        color: #000;
+    }
+    
+    .content5{
+        vertical-align:center;
+        text-align: center;
+        font-size: x-large;
+        color: #000;
+    }
+    
+    .content6{
+        vertical-align:bottom;
+        text-align:center;
+        font-size: x-large;
+        color: #000;
+    }
+    
+    .content7{
+        vertical-align:top;
+        text-align: right;
+        font-size: x-large;
+        color: #000;
+    }
+    
+    .content8{
+        vertical-align:right;
+        text-align: right;
+    }
+    
+    .content9{
+        vertical-align:bottom;
+        text-align: right;
+        font-size: x-large;
+        color: #000;
+    }
+    h1{
+       position: absolute;
+       margin-left: 14rem;
+       margin-top: 26rem; 
+    }
+  
+</style>
+<body>
+    <header>Horizaontal and Vertical Alignment </header>
+    <div class="container">
+        <div class="top-box">Cell Allignment With CSS</div>
+<div class="left-box">EXAMPLES</div>
+<div class = "right-box">
+    <h1> Nested-table</h1>
+    
+    <table class="nested-table"  border="10" cellspacing="9">
+        <tr>
+            <td style=" height:2rem; text-align: center;font-size: x-large;
+            color: #000;">Row</td>
+            <td style="height: 2rem;  text-align: center;font-size: x-large;
+            color: #000;">Cell - 1</td>
+            <td style="height: 2rem;  text-align: center;font-size: x-large;
+            color: #000;">Cell - 2</td>
+            <td style="height: 2rem;  text-align: center;font-size: x-large;
+            color: #000;">Cell - 3</td>
+        </tr>
+        <tr>
+            <td style="width: 4rem;  text-align: center;font-size: x-large;
+            color: #000;">3</td>
+            <td class="content1" >C S S</td>
+            <td class="content2">C S S</td>
+            <td class="content3">C S S</td>
+        </tr>
+        <tr>
+            <td style="width: 2px;  text-align: center;font-size: x-large;
+            color: #000;">4</td>
+            <td class="content4">C S S</td>
+            <td class="content5">C S S</td>
+            <td class="content6">C S S</td>
+        </tr>
+        <tr>
+            <td style="width: 2px;  text-align: cent er;font-size: x-large;
+            color: #000;">5</td>
+            <td class="content7">C S S</td>
+            <td class="content8">C S S</td>
+            <td class="content9">C S S</td>
+        </tr>
+    </table>
+    </div>
+                    
+</body>
+</html>
